@@ -1,0 +1,3285 @@
+fileFormatVersion: 2
+guid: de60cd4bcd6f3ee45b4bbec6f0873b63
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftUpperLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: modelo(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CONTROL_GENERAL
+      parentName: modelo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CONTROL_PRINCIPAL
+      parentName: CONTROL_GENERAL
+      position: {x: -0, y: 0.008745957, z: 0.002862827}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HCENTRAL
+      parentName: CONTROL_PRINCIPAL
+      position: {x: -0, y: -2.429089e-10, z: 1.7502572e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CADERA
+      parentName: HCENTRAL
+      position: {x: -0, y: 0.00084271823, z: -0.0028090607}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TORSO
+      parentName: CADERA
+      position: {x: 9.066381e-36, y: 0.0021329026, z: -1.2836954e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PECHO
+      parentName: TORSO
+      position: {x: -8.907426e-36, y: 0.001494245, z: 0.00000608621}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CUELLO
+      parentName: PECHO
+      position: {x: -6.952846e-19, y: 0.0031011142, z: -0.00007016432}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CUELLO
+      parentName: CUELLO
+      position: {x: 1.7565987e-19, y: 0.0015786972, z: 0.0002806573}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface5
+      parentName: CUELLO
+      position: {x: -0.007926567, y: 0.009333647, z: -0.00027034563}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface4
+      parentName: CUELLO
+      position: {x: 0.007926567, y: 0.009333651, z: -0.00027034563}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EXPREBASE
+      parentName: CUELLO
+      position: {x: 5.196248e-19, y: -0.017895633, z: -0.0002703453}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__angry2
+      parentName: EXPREBASE
+      position: {x: -0.013349646, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__ojo2expre2
+      parentName: pasted__angry2
+      position: {x: 0.0025126098, y: 0.024806121, z: 0.00428}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc54
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc55
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc57
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc58
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc59
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc61
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc62
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc63
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc64
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc65
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc66
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc67
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc68
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc70
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc71
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc72
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc73
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc74
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc75
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc76
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc77
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc78
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014924662, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc79
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc80
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc81
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc82
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc83
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc84
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc85
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc86
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc87
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014924662, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc88
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc89
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc90
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc91
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc92
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc93
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc94
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc95
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc96
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014924662, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc97
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc98
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc99
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc100
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc101
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc102
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc103
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc104
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc105
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014924662, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc106
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc107
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc108
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc109
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc110
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc111
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc112
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc113
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc115
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc116
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc117
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc118
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc121
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc122
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc124
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc137
+      parentName: pasted__ojo2expre2
+      position: {x: 0.0127467485, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc138
+      parentName: pasted__ojo2expre2
+      position: {x: 0.0127467485, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc139
+      parentName: pasted__ojo2expre2
+      position: {x: 0.0127467485, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc144
+      parentName: pasted__ojo2expre2
+      position: {x: 0.0127467485, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc245
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc246
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc247
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc248
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc249
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc250
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014924662, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc251
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc252
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc253
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc254
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc255
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc256
+      parentName: pasted__ojo2expre2
+      position: {x: 0.0127467485, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc257
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc258
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc259
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc260
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc261
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc262
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc263
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc264
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc265
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014924662, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc266
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc267
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc268
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc269
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc270
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc271
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc272
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc273
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc274
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc275
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc276
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014924662, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc277
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc278
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc279
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc280
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc281
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc282
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc283
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc284
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc285
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc286
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014924662, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc287
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc288
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc289
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc290
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc291
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc292
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc293
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc294
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc295
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc296
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc297
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc298
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc299
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc300
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc301
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc302
+      parentName: pasted__ojo2expre2
+      position: {x: 0.0127467485, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc303
+      parentName: pasted__ojo2expre2
+      position: {x: 0.0127467485, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc304
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc305
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc306
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc307
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc308
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc309
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc310
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc311
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc312
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc313
+      parentName: pasted__ojo2expre2
+      position: {x: 0.0127467485, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc314
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc315
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc316
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc317
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc318
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc319
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc320
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__angry3
+      parentName: EXPREBASE
+      position: {x: -0.019349646, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__ojo2expre2
+      parentName: pasted__angry3
+      position: {x: 0.0025126098, y: 0.024806121, z: 0.00428}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc54
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc55
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc57
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc58
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc59
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc61
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc62
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc63
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc64
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc65
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc66
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc67
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc68
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc70
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc71
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc72
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc73
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc74
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc75
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc76
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc77
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc78
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014924662, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc79
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc80
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc81
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc82
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc83
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc84
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc85
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc86
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc87
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014924662, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc88
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc89
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc90
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc91
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc92
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc93
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc94
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc95
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc96
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014924662, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc97
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc98
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc99
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc100
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc101
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc102
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc103
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc104
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc105
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014924662, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc106
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc107
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc108
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc109
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc110
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc111
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc112
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc113
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc115
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc116
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc117
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc118
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc121
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc122
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc124
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc137
+      parentName: pasted__ojo2expre2
+      position: {x: 0.0127467485, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc138
+      parentName: pasted__ojo2expre2
+      position: {x: 0.0127467485, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc139
+      parentName: pasted__ojo2expre2
+      position: {x: 0.0127467485, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc144
+      parentName: pasted__ojo2expre2
+      position: {x: 0.0127467485, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc245
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc246
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc247
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc248
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc249
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc250
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014924662, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc251
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc252
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc253
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc254
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc255
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc256
+      parentName: pasted__ojo2expre2
+      position: {x: 0.0127467485, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc257
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc258
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc259
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc260
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc261
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc262
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc263
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc264
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc265
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014924662, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc266
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc267
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc268
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc269
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc270
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc271
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc272
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc273
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc274
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc275
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc276
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014924662, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc277
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc278
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc279
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc280
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc281
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc282
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc283
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc284
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc285
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc286
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014924662, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc287
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc288
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc289
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc290
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc291
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc292
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc293
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc294
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014677991, y: -0.00055176055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc295
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc296
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc297
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc298
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc299
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014202701, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc300
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc301
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc302
+      parentName: pasted__ojo2expre2
+      position: {x: 0.0127467485, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc303
+      parentName: pasted__ojo2expre2
+      position: {x: 0.0127467485, y: -0.00030509083, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc304
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc305
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc306
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc307
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc308
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc309
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013956032, y: -0.0013098187, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc310
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc311
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc312
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: 0.00044695102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc313
+      parentName: pasted__ojo2expre2
+      position: {x: 0.0127467485, y: -0.00080444664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc314
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013486757, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc315
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013721394, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc316
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc317
+      parentName: pasted__ojo2expre2
+      position: {x: 0.013240088, y: 0.00020028128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc318
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: -0.0010571327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc319
+      parentName: pasted__ojo2expre2
+      position: {x: 0.01300545, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc320
+      parentName: pasted__ojo2expre2
+      position: {x: 0.014443355, y: -0.00006443744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MUERTE
+      parentName: CUELLO
+      position: {x: 0.0076333033, y: -0.017539373, z: -0.0002703453}
+      rotation: {x: 0, y: 0, z: 0.15846021, w: 0.98736537}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OJOIZ
+      parentName: MUERTE
+      position: {x: 0.002867619, y: 0.024827573, z: 0.00428}
+      rotation: {x: 0, y: -0, z: -0.143199, w: 0.98969394}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc107
+      parentName: OJOIZ
+      position: {x: -0.0007949719, y: 0.0004088604, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc109
+      parentName: OJOIZ
+      position: {x: -0.00054830214, y: 0.0004088604, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc110
+      parentName: OJOIZ
+      position: {x: 0.00064293214, y: 0.0004088604, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc111
+      parentName: OJOIZ
+      position: {x: -0.001029609, y: 0.0004088604, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc112
+      parentName: OJOIZ
+      position: {x: 0.00040829505, y: 0.0004088604, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc113
+      parentName: OJOIZ
+      position: {x: 0.00016764167, y: 0.0004088604, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc116
+      parentName: OJOIZ
+      position: {x: -0.0007949719, y: 0.00065553014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc119
+      parentName: OJOIZ
+      position: {x: 0.00064293214, y: 0.00065553014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc120
+      parentName: OJOIZ
+      position: {x: -0.001029609, y: 0.00065553014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc121
+      parentName: OJOIZ
+      position: {x: 0.00040829505, y: 0.00065553014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc123
+      parentName: OJOIZ
+      position: {x: 0.0008896018, y: 0.00065553014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc128
+      parentName: OJOIZ
+      position: {x: 0.00064293214, y: 0.0009262652, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc129
+      parentName: OJOIZ
+      position: {x: -0.001029609, y: 0.0009262652, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc132
+      parentName: OJOIZ
+      position: {x: 0.0008896018, y: 0.0009262652, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc136
+      parentName: OJOIZ
+      position: {x: -0.0012883113, y: 0.00065553014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc143
+      parentName: OJOIZ
+      position: {x: -0.0012883113, y: 0.0009262652, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc325
+      parentName: OJOIZ
+      position: {x: -0.000572375, y: 0.00014685014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc327
+      parentName: OJOIZ
+      position: {x: 0.0001435688, y: -0.00037055466, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc328
+      parentName: OJOIZ
+      position: {x: -0.000572375, y: -0.00012388492, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc329
+      parentName: OJOIZ
+      position: {x: -0.00081904477, y: 0.00014685014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc331
+      parentName: OJOIZ
+      position: {x: -0.000337738, y: 0.00014685014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc334
+      parentName: OJOIZ
+      position: {x: 0.0001435688, y: 0.00014685014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc336
+      parentName: OJOIZ
+      position: {x: -0.000337738, y: -0.00012388492, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc339
+      parentName: OJOIZ
+      position: {x: -0.000337738, y: -0.00037055466, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc340
+      parentName: OJOIZ
+      position: {x: -0.00010310093, y: -0.00012388492, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc342
+      parentName: OJOIZ
+      position: {x: 0.0001435688, y: -0.00012388492, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc343
+      parentName: OJOIZ
+      position: {x: -0.00010310093, y: -0.00037055466, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc346
+      parentName: OJOIZ
+      position: {x: -0.000572375, y: -0.00037055466, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc347
+      parentName: OJOIZ
+      position: {x: -0.00010310093, y: 0.00014685014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc348
+      parentName: OJOIZ
+      position: {x: 0.0003842222, y: 0.00014685014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc355
+      parentName: OJOIZ
+      position: {x: 0.00013566649, y: -0.0006264105, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc356
+      parentName: OJOIZ
+      position: {x: 0.0008335538, y: -0.0011591557, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc357
+      parentName: OJOIZ
+      position: {x: -0.0013443594, y: -0.0014058255, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc358
+      parentName: OJOIZ
+      position: {x: -0.00085102, y: -0.0011591557, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc360
+      parentName: OJOIZ
+      position: {x: 0.00035224698, y: -0.0011591557, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc363
+      parentName: OJOIZ
+      position: {x: 0.00058688404, y: -0.0008884207, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc364
+      parentName: OJOIZ
+      position: {x: 0.00058688404, y: -0.0014058255, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc365
+      parentName: OJOIZ
+      position: {x: -0.00060435024, y: -0.0008884207, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc367
+      parentName: OJOIZ
+      position: {x: 0.00058688404, y: -0.0011591557, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc368
+      parentName: OJOIZ
+      position: {x: -0.001085657, y: -0.0014058255, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc372
+      parentName: OJOIZ
+      position: {x: 0.00035224698, y: -0.0008884207, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc376
+      parentName: OJOIZ
+      position: {x: -0.0003456403, y: -0.0006264105, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc377
+      parentName: OJOIZ
+      position: {x: 0.0001115936, y: -0.0008884207, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc379
+      parentName: OJOIZ
+      position: {x: -0.0013443594, y: -0.0011591557, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc380
+      parentName: OJOIZ
+      position: {x: 0.0008335538, y: -0.0014058255, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc382
+      parentName: OJOIZ
+      position: {x: -0.001085657, y: -0.0008884207, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc384
+      parentName: OJOIZ
+      position: {x: -0.000111003246, y: -0.0006264105, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc385
+      parentName: OJOIZ
+      position: {x: -0.0008269471, y: -0.0006264105, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc386
+      parentName: OJOIZ
+      position: {x: -0.00058027735, y: -0.0006264105, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc388
+      parentName: OJOIZ
+      position: {x: 0.0003763199, y: -0.0006264105, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc389
+      parentName: OJOIZ
+      position: {x: -0.001085657, y: -0.0011591557, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc390
+      parentName: OJOIZ
+      position: {x: -0.00085102, y: -0.0008884207, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OJODE
+      parentName: MUERTE
+      position: {x: -0.0014381261, y: 0.026246151, z: 0.00428}
+      rotation: {x: 0, y: -0, z: -0.143199, w: 0.98969394}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc107
+      parentName: OJODE
+      position: {x: -0.0007949719, y: 0.0004088604, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc109
+      parentName: OJODE
+      position: {x: -0.00054830214, y: 0.0004088604, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc110
+      parentName: OJODE
+      position: {x: 0.00064293214, y: 0.0004088604, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc111
+      parentName: OJODE
+      position: {x: -0.001029609, y: 0.0004088604, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc112
+      parentName: OJODE
+      position: {x: 0.00040829505, y: 0.0004088604, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc113
+      parentName: OJODE
+      position: {x: 0.00016764167, y: 0.0004088604, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc116
+      parentName: OJODE
+      position: {x: -0.0007949719, y: 0.00065553014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc119
+      parentName: OJODE
+      position: {x: 0.00064293214, y: 0.00065553014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc120
+      parentName: OJODE
+      position: {x: -0.001029609, y: 0.00065553014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc121
+      parentName: OJODE
+      position: {x: 0.00040829505, y: 0.00065553014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc123
+      parentName: OJODE
+      position: {x: 0.0008896018, y: 0.00065553014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc128
+      parentName: OJODE
+      position: {x: 0.00064293214, y: 0.0009262652, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc129
+      parentName: OJODE
+      position: {x: -0.001029609, y: 0.0009262652, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc132
+      parentName: OJODE
+      position: {x: 0.0008896018, y: 0.0009262652, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc136
+      parentName: OJODE
+      position: {x: -0.0012883113, y: 0.00065553014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc143
+      parentName: OJODE
+      position: {x: -0.0012883113, y: 0.0009262652, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc325
+      parentName: OJODE
+      position: {x: -0.000572375, y: 0.00014685014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc327
+      parentName: OJODE
+      position: {x: 0.0001435688, y: -0.00037055466, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc328
+      parentName: OJODE
+      position: {x: -0.000572375, y: -0.00012388492, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc329
+      parentName: OJODE
+      position: {x: -0.00081904477, y: 0.00014685014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc331
+      parentName: OJODE
+      position: {x: -0.000337738, y: 0.00014685014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc334
+      parentName: OJODE
+      position: {x: 0.0001435688, y: 0.00014685014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc336
+      parentName: OJODE
+      position: {x: -0.000337738, y: -0.00012388492, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc339
+      parentName: OJODE
+      position: {x: -0.000337738, y: -0.00037055466, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc340
+      parentName: OJODE
+      position: {x: -0.00010310093, y: -0.00012388492, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc342
+      parentName: OJODE
+      position: {x: 0.0001435688, y: -0.00012388492, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc343
+      parentName: OJODE
+      position: {x: -0.00010310093, y: -0.00037055466, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc346
+      parentName: OJODE
+      position: {x: -0.000572375, y: -0.00037055466, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc347
+      parentName: OJODE
+      position: {x: -0.00010310093, y: 0.00014685014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc348
+      parentName: OJODE
+      position: {x: 0.0003842222, y: 0.00014685014, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc355
+      parentName: OJODE
+      position: {x: 0.00013566649, y: -0.0006264105, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc356
+      parentName: OJODE
+      position: {x: 0.0008335538, y: -0.0011591557, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc357
+      parentName: OJODE
+      position: {x: -0.0013443594, y: -0.0014058255, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc358
+      parentName: OJODE
+      position: {x: -0.00085102, y: -0.0011591557, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc360
+      parentName: OJODE
+      position: {x: 0.00035224698, y: -0.0011591557, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc363
+      parentName: OJODE
+      position: {x: 0.00058688404, y: -0.0008884207, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc364
+      parentName: OJODE
+      position: {x: 0.00058688404, y: -0.0014058255, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc365
+      parentName: OJODE
+      position: {x: -0.00060435024, y: -0.0008884207, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc367
+      parentName: OJODE
+      position: {x: 0.00058688404, y: -0.0011591557, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc368
+      parentName: OJODE
+      position: {x: -0.001085657, y: -0.0014058255, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc372
+      parentName: OJODE
+      position: {x: 0.00035224698, y: -0.0008884207, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc376
+      parentName: OJODE
+      position: {x: -0.0003456403, y: -0.0006264105, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc377
+      parentName: OJODE
+      position: {x: 0.0001115936, y: -0.0008884207, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc379
+      parentName: OJODE
+      position: {x: -0.0013443594, y: -0.0011591557, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc380
+      parentName: OJODE
+      position: {x: 0.0008335538, y: -0.0014058255, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc382
+      parentName: OJODE
+      position: {x: -0.001085657, y: -0.0008884207, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc384
+      parentName: OJODE
+      position: {x: -0.000111003246, y: -0.0006264105, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc385
+      parentName: OJODE
+      position: {x: -0.0008269471, y: -0.0006264105, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc386
+      parentName: OJODE
+      position: {x: -0.00058027735, y: -0.0006264105, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc388
+      parentName: OJODE
+      position: {x: 0.0003763199, y: -0.0006264105, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc389
+      parentName: OJODE
+      position: {x: -0.001085657, y: -0.0011591557, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc390
+      parentName: OJODE
+      position: {x: -0.00085102, y: -0.0008884207, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ENOJADO
+      parentName: CUELLO
+      position: {x: 5.196248e-19, y: -0.017895633, z: -0.0002703453}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group6
+      parentName: ENOJADO
+      position: {x: 0.0023421566, y: 0.024730863, z: 0.00428}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc143
+      parentName: group6
+      position: {x: -0.0015826504, y: -0.000045032677, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc142
+      parentName: group6
+      position: {x: -0.0013244982, y: -0.00070430414, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc138
+      parentName: group6
+      position: {x: -0.0011924205, y: -0.0010416053, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc136
+      parentName: group6
+      position: {x: -0.0014475703, y: -0.00039000146, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc133
+      parentName: group6
+      position: {x: -0.00034076846, y: 0.00044125333, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc132
+      parentName: group6
+      position: {x: 0.0011924199, y: 0.0010416068, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc131
+      parentName: group6
+      position: {x: 0.00027250728, y: 0.0006813948, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc130
+      parentName: group6
+      position: {x: 0.0005791442, y: 0.0008014652, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc129
+      parentName: group6
+      position: {x: -0.0012530154, y: 0.000084043095, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc128
+      parentName: group6
+      position: {x: 0.0008781161, y: 0.00091853424, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc127
+      parentName: group6
+      position: {x: -0.0006397404, y: 0.00032418434, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc126
+      parentName: group6
+      position: {x: -0.000041796913, y: 0.0005583222, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc125
+      parentName: group6
+      position: {x: -0.00095404347, y: 0.00020111208, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc124
+      parentName: group6
+      position: {x: -0.0002056884, y: 0.00009628455, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc123
+      parentName: group6
+      position: {x: 0.0013275, y: 0.00069663796, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc122
+      parentName: group6
+      position: {x: 0.00040758736, y: 0.00033642608, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc121
+      parentName: group6
+      position: {x: 0.00071422424, y: 0.00045649646, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc120
+      parentName: group6
+      position: {x: -0.0011179353, y: -0.00026092568, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc119
+      parentName: group6
+      position: {x: 0.0010131962, y: 0.0005735655, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc118
+      parentName: group6
+      position: {x: -0.0005046603, y: -0.000020784442, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc117
+      parentName: group6
+      position: {x: 0.000093283146, y: 0.00021335339, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc116
+      parentName: group6
+      position: {x: -0.0008189634, y: -0.00014385668, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc115
+      parentName: group6
+      position: {x: -0.0000826163, y: -0.00021801813, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc114
+      parentName: group6
+      position: {x: 0.0014505722, y: 0.0003823353, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc113
+      parentName: group6
+      position: {x: 0.00053065945, y: 0.00002212339, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc112
+      parentName: group6
+      position: {x: 0.00083729636, y: 0.00014219378, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc111
+      parentName: group6
+      position: {x: -0.0009948632, y: -0.00057522836, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc110
+      parentName: group6
+      position: {x: 0.0011362683, y: 0.00025926277, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc109
+      parentName: group6
+      position: {x: -0.0003815882, y: -0.00033508713, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc108
+      parentName: group6
+      position: {x: 0.00021635524, y: -0.00010094929, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc107
+      parentName: group6
+      position: {x: -0.00069589127, y: -0.00045815937, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc106
+      parentName: group6
+      position: {x: 0.00004946132, y: -0.00055531925, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc105
+      parentName: group6
+      position: {x: 0.0015826498, y: 0.0000450342, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc104
+      parentName: group6
+      position: {x: 0.000662737, y: -0.00031517772, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc103
+      parentName: group6
+      position: {x: 0.000969374, y: -0.00019510732, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc102
+      parentName: group6
+      position: {x: -0.00086278556, y: -0.0009125294, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc101
+      parentName: group6
+      position: {x: 0.0012683459, y: -0.000078038334, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc100
+      parentName: group6
+      position: {x: -0.0002495106, y: -0.00067238824, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc99
+      parentName: group6
+      position: {x: 0.00034843286, y: -0.0004382504, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc98
+      parentName: group6
+      position: {x: -0.00056381366, y: -0.0007954605, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group7
+      parentName: ENOJADO
+      position: {x: -0.0022853957, y: 0.024730863, z: 0.00428}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc143
+      parentName: group7
+      position: {x: -0.0011924184, y: 0.0010416086, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc142
+      parentName: group7
+      position: {x: -0.0014505716, y: 0.0003823375, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc138
+      parentName: group7
+      position: {x: -0.0015826497, y: 0.000045036595, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc136
+      parentName: group7
+      position: {x: -0.0013274989, y: 0.00069664, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc133
+      parentName: group7
+      position: {x: 0.000049462757, y: 0.00055532064, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc132
+      parentName: group7
+      position: {x: 0.0015826502, y: -0.000045035074, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc131
+      parentName: group7
+      position: {x: 0.00066273817, y: 0.00031517821, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc130
+      parentName: group7
+      position: {x: 0.0009693749, y: 0.00019510738, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc129
+      parentName: group7
+      position: {x: -0.00086278364, y: 0.00091253227, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc128
+      parentName: group7
+      position: {x: 0.0012683466, y: 0.000078037934, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc127
+      parentName: group7
+      position: {x: -0.00024950897, y: 0.00067239016, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc126
+      parentName: group7
+      position: {x: 0.0003484341, y: 0.0004382514, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc125
+      parentName: group7
+      position: {x: -0.00056381186, y: 0.00079546287, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc124
+      parentName: group7
+      position: {x: -0.00008561783, y: 0.00021035213, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc123
+      parentName: group7
+      position: {x: 0.0014475697, y: -0.00039000364, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc122
+      parentName: group7
+      position: {x: 0.00052765757, y: -0.000029790332, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc121
+      parentName: group7
+      position: {x: 0.0008342943, y: -0.00014986118, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc120
+      parentName: group7
+      position: {x: -0.0009978642, y: 0.00056756375, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc119
+      parentName: group7
+      position: {x: 0.001133266, y: -0.0002669306, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc118
+      parentName: group7
+      position: {x: -0.00038458957, y: 0.00032742156, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc117
+      parentName: group7
+      position: {x: 0.00021335353, y: 0.00009328282, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc116
+      parentName: group7
+      position: {x: -0.00069889246, y: 0.0004504943, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc115
+      parentName: group7
+      position: {x: -0.00020869038, y: -0.00010395038, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc114
+      parentName: group7
+      position: {x: 0.0013244972, y: -0.0007043061, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc113
+      parentName: group7
+      position: {x: 0.000404585, y: -0.00034409284, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc112
+      parentName: group7
+      position: {x: 0.0007112218, y: -0.00046416366, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc111
+      parentName: group7
+      position: {x: -0.0011209368, y: 0.00025326124, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc110
+      parentName: group7
+      position: {x: 0.0010101935, y: -0.0005812331, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc109
+      parentName: group7
+      position: {x: -0.00050766213, y: 0.000013119069, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc108
+      parentName: group7
+      position: {x: 0.00009028098, y: -0.00022101967, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc107
+      parentName: group7
+      position: {x: -0.00082196505, y: 0.00013619178, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc106
+      parentName: group7
+      position: {x: -0.00034076854, y: -0.00044125126, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc105
+      parentName: group7
+      position: {x: 0.001192419, y: -0.001041607, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc104
+      parentName: group7
+      position: {x: 0.00027250685, y: -0.0006813937, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc103
+      parentName: group7
+      position: {x: 0.0005791436, y: -0.0008014646, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc102
+      parentName: group7
+      position: {x: -0.0012530149, y: -0.00008403968, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc101
+      parentName: group7
+      position: {x: 0.00087811536, y: -0.000918534, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc100
+      parentName: group7
+      position: {x: -0.00063974026, y: -0.00032418183, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc99
+      parentName: group7
+      position: {x: -0.000041797164, y: -0.00055832055, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc98
+      parentName: group7
+      position: {x: -0.0009540432, y: -0.00020110913, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FELIZZ
+      parentName: CUELLO
+      position: {x: -0.000041738283, y: 0.006826676, z: 0.0040096547}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OJOIZ
+      parentName: FELIZZ
+      position: {x: 0.0023005304, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc92
+      parentName: OJOIZ
+      position: {x: 0.0008422866, y: -0.0006423099, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc93
+      parentName: OJOIZ
+      position: {x: -0.00083025446, y: -0.0006423099, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc96
+      parentName: OJOIZ
+      position: {x: 0.0010889564, y: -0.0006423099, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc101
+      parentName: OJOIZ
+      position: {x: 0.0008422866, y: -0.00040165655, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc102
+      parentName: OJOIZ
+      position: {x: -0.00083025446, y: -0.00040165655, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc105
+      parentName: OJOIZ
+      position: {x: 0.0010889564, y: -0.00040165655, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc107
+      parentName: OJOIZ
+      position: {x: -0.0005956174, y: -0.00013693782, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc110
+      parentName: OJOIZ
+      position: {x: 0.0008422866, y: -0.00013693782, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc111
+      parentName: OJOIZ
+      position: {x: -0.00083025446, y: -0.00013693782, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc112
+      parentName: OJOIZ
+      position: {x: 0.00060764956, y: -0.00013693782, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc114
+      parentName: OJOIZ
+      position: {x: 0.0010889564, y: -0.00013693782, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc116
+      parentName: OJOIZ
+      position: {x: -0.0005956174, y: 0.000109731904, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc117
+      parentName: OJOIZ
+      position: {x: 0.000120326455, y: 0.000109731904, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc118
+      parentName: OJOIZ
+      position: {x: -0.00034894768, y: 0.000109731904, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc119
+      parentName: OJOIZ
+      position: {x: 0.0008422866, y: 0.000109731904, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc120
+      parentName: OJOIZ
+      position: {x: -0.00083025446, y: 0.000109731904, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc121
+      parentName: OJOIZ
+      position: {x: 0.00060764956, y: 0.000109731904, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc122
+      parentName: OJOIZ
+      position: {x: 0.0003669962, y: 0.000109731904, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc123
+      parentName: OJOIZ
+      position: {x: 0.0010889564, y: 0.000109731904, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc124
+      parentName: OJOIZ
+      position: {x: -0.000114310606, y: 0.000109731904, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc125
+      parentName: OJOIZ
+      position: {x: -0.0005956174, y: 0.00038046698, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc126
+      parentName: OJOIZ
+      position: {x: 0.000120326455, y: 0.00038046698, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc127
+      parentName: OJOIZ
+      position: {x: -0.00034894768, y: 0.00038046698, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc128
+      parentName: OJOIZ
+      position: {x: 0.0008422866, y: 0.00038046698, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc129
+      parentName: OJOIZ
+      position: {x: -0.00083025446, y: 0.00038046698, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc130
+      parentName: OJOIZ
+      position: {x: 0.00060764956, y: 0.00038046698, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc131
+      parentName: OJOIZ
+      position: {x: 0.0003669962, y: 0.00038046698, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc133
+      parentName: OJOIZ
+      position: {x: -0.000114310606, y: 0.00038046698, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc136
+      parentName: OJOIZ
+      position: {x: -0.0010889568, y: 0.000109731904, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc138
+      parentName: OJOIZ
+      position: {x: -0.0010889568, y: -0.00040165655, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc139
+      parentName: OJOIZ
+      position: {x: -0.0010889568, y: -0.0006423099, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc142
+      parentName: OJOIZ
+      position: {x: -0.0010889568, y: -0.00013693782, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc391
+      parentName: OJOIZ
+      position: {x: 0.0003669962, y: 0.0006423093, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc392
+      parentName: OJOIZ
+      position: {x: -0.00034894768, y: 0.0006423093, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc393
+      parentName: OJOIZ
+      position: {x: 0.00060764956, y: 0.0006423093, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc394
+      parentName: OJOIZ
+      position: {x: -0.0005956174, y: 0.0006423093, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc395
+      parentName: OJOIZ
+      position: {x: 0.000120326455, y: 0.0006423093, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc396
+      parentName: OJOIZ
+      position: {x: -0.000114310606, y: 0.0006423093, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc398
+      parentName: OJOIZ
+      position: {x: 0.00060793967, y: -0.0006423099, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc399
+      parentName: OJOIZ
+      position: {x: 0.00060793967, y: -0.00040165655, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc405
+      parentName: OJOIZ
+      position: {x: -0.0006141682, y: -0.00040165655, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc406
+      parentName: OJOIZ
+      position: {x: -0.0006141682, y: -0.0006423099, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OJODE
+      parentName: FELIZZ
+      position: {x: -0.0023005304, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc92
+      parentName: OJODE
+      position: {x: 0.0008422866, y: -0.0006423099, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc93
+      parentName: OJODE
+      position: {x: -0.00083025446, y: -0.0006423099, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc96
+      parentName: OJODE
+      position: {x: 0.0010889564, y: -0.0006423099, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc101
+      parentName: OJODE
+      position: {x: 0.0008422866, y: -0.00040165655, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc102
+      parentName: OJODE
+      position: {x: -0.00083025446, y: -0.00040165655, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc105
+      parentName: OJODE
+      position: {x: 0.0010889564, y: -0.00040165655, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc107
+      parentName: OJODE
+      position: {x: -0.0005956174, y: -0.00013693782, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc110
+      parentName: OJODE
+      position: {x: 0.0008422866, y: -0.00013693782, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc111
+      parentName: OJODE
+      position: {x: -0.00083025446, y: -0.00013693782, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc112
+      parentName: OJODE
+      position: {x: 0.00060764956, y: -0.00013693782, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc114
+      parentName: OJODE
+      position: {x: 0.0010889564, y: -0.00013693782, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc116
+      parentName: OJODE
+      position: {x: -0.0005956174, y: 0.000109731904, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc117
+      parentName: OJODE
+      position: {x: 0.000120326455, y: 0.000109731904, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc118
+      parentName: OJODE
+      position: {x: -0.00034894768, y: 0.000109731904, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc119
+      parentName: OJODE
+      position: {x: 0.0008422866, y: 0.000109731904, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc120
+      parentName: OJODE
+      position: {x: -0.00083025446, y: 0.000109731904, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc121
+      parentName: OJODE
+      position: {x: 0.00060764956, y: 0.000109731904, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc122
+      parentName: OJODE
+      position: {x: 0.0003669962, y: 0.000109731904, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc123
+      parentName: OJODE
+      position: {x: 0.0010889564, y: 0.000109731904, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc124
+      parentName: OJODE
+      position: {x: -0.000114310606, y: 0.000109731904, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc125
+      parentName: OJODE
+      position: {x: -0.0005956174, y: 0.00038046698, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc126
+      parentName: OJODE
+      position: {x: 0.000120326455, y: 0.00038046698, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc127
+      parentName: OJODE
+      position: {x: -0.00034894768, y: 0.00038046698, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc128
+      parentName: OJODE
+      position: {x: 0.0008422866, y: 0.00038046698, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc129
+      parentName: OJODE
+      position: {x: -0.00083025446, y: 0.00038046698, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc130
+      parentName: OJODE
+      position: {x: 0.00060764956, y: 0.00038046698, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc131
+      parentName: OJODE
+      position: {x: 0.0003669962, y: 0.00038046698, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc133
+      parentName: OJODE
+      position: {x: -0.000114310606, y: 0.00038046698, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc136
+      parentName: OJODE
+      position: {x: -0.0010889568, y: 0.000109731904, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc138
+      parentName: OJODE
+      position: {x: -0.0010889568, y: -0.00040165655, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc139
+      parentName: OJODE
+      position: {x: -0.0010889568, y: -0.0006423099, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc142
+      parentName: OJODE
+      position: {x: -0.0010889568, y: -0.00013693782, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc391
+      parentName: OJODE
+      position: {x: 0.0003669962, y: 0.0006423093, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc392
+      parentName: OJODE
+      position: {x: -0.00034894768, y: 0.0006423093, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc393
+      parentName: OJODE
+      position: {x: 0.00060764956, y: 0.0006423093, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc394
+      parentName: OJODE
+      position: {x: -0.0005956174, y: 0.0006423093, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc395
+      parentName: OJODE
+      position: {x: 0.000120326455, y: 0.0006423093, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc396
+      parentName: OJODE
+      position: {x: -0.000114310606, y: 0.0006423093, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc398
+      parentName: OJODE
+      position: {x: 0.00060793967, y: -0.0006423099, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc399
+      parentName: OJODE
+      position: {x: 0.00060793967, y: -0.00040165655, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc405
+      parentName: OJODE
+      position: {x: -0.0006141682, y: -0.00040165655, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__pDisc406
+      parentName: OJODE
+      position: {x: -0.0006141682, y: -0.0006423099, z: -3.0994415e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CABEZA
+      parentName: CUELLO
+      position: {x: -2.4745788e-18, y: 0.011050881, z: -0.00024557512}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HUESODERE
+      parentName: PECHO
+      position: {x: -0.0042157997, y: 0.001265423, z: -0.00005985236}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HOMBRODE
+      parentName: HUESODERE
+      position: {x: -0.003127999, y: 0.00094430154, z: 7.7037193e-35}
+      rotation: {x: -0, y: -0, z: -0.034285977, w: 0.99941206}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CODODE
+      parentName: HOMBRODE
+      position: {x: -0.0063150167, y: -0.00094430154, z: 6.0597634e-19}
+      rotation: {x: -0.0026959188, y: 0.03924582, z: -0.0036005154, w: 0.99921954}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "MU\xD1ECA"
+      parentName: CODODE
+      position: {x: -0.0049575833, y: -0.00041313222, z: -0.0007911364}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PALMADE
+      parentName: "MU\xD1ECA"
+      position: {x: -0.0059609036, y: -0.00011803769, z: 0.0007316912}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "ME\xD1IQUEUNO"
+      parentName: PALMADE
+      position: {x: -0.0032902407, y: -0.00003733947, z: -0.0040472173}
+      rotation: {x: -0.26200876, y: -0.006567903, z: 0.023169836, w: 0.964765}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "ME\xD1IDOS"
+      parentName: "ME\xD1IQUEUNO"
+      position: {x: -0.0022943385, y: 0.000107004205, z: 0.00008296312}
+      rotation: {x: 0.00022301072, y: 0.006650267, z: -0.010747314, w: 0.9999201}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "ME\xD1OTRES"
+      parentName: "ME\xD1IDOS"
+      position: {x: -0.0017790978, y: -0.00008054308, z: -0.000036872498}
+      rotation: {x: 0.012064368, y: 0.009119639, z: -0.027644835, w: 0.9995034}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "ME\xD1ICUA"
+      parentName: "ME\xD1OTRES"
+      position: {x: -0.0014380272, y: -0.000049062022, z: -0.000007184526}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ANULARUNO
+      parentName: PALMADE
+      position: {x: -0.0037485927, y: -0.00003733947, z: -0.0021298474}
+      rotation: {x: -0.6779469, y: 0.000000022533358, z: 0.0027242266, w: 0.7351058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ANULARDOS
+      parentName: ANULARUNO
+      position: {x: -0.002715363, y: 2.220446e-18, z: 0.00004609062}
+      rotation: {x: -4.3597644e-24, y: -0.000000009959093, z: 2.2345945e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ANULARTRE
+      parentName: ANULARDOS
+      position: {x: -0.0023598399, y: 0, z: -0.00004609062}
+      rotation: {x: 0.67794675, y: -0.000000035749387, z: 0.000000032969425, w: 0.735111}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ANULARCUA
+      parentName: ANULARTRE
+      position: {x: -0.0018067523, y: 0, z: 0.00002765437}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEDIOUNO
+      parentName: PALMADE
+      position: {x: -0.0039627803, y: -0.00003733947, z: 0.00015122569}
+      rotation: {x: 0.15860409, y: 0.0054890085, z: 0.002817752, w: 0.987323}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEDIODOS
+      parentName: MEDIOUNO
+      position: {x: -0.0030017786, y: -0.00018507824, z: -0.000053293374}
+      rotation: {x: 0.00000048313774, y: 0.021953676, z: -0.000004788568, w: 0.999759}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEDIOTRE
+      parentName: MEDIODOS
+      position: {x: -0.0024306069, y: -0.0003353554, z: -0.00009655641}
+      rotation: {x: -0.15971823, y: -0.043848827, z: -0.026238253, w: 0.98583925}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEDIOCUA
+      parentName: MEDIOTRE
+      position: {x: -0.0019161974, y: -0.0001948271, z: 0.000009163678}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: INDICEUNO
+      parentName: PALMADE
+      position: {x: -0.0032925329, y: -0.00003733947, z: 0.0023359957}
+      rotation: {x: -0.7042437, y: 0.001288305, z: -0.0025063816, w: 0.7099527}
+      scale: {x: 1, y: 1, z: 1}
+    - name: INDICEDOS
+      parentName: INDICEUNO
+      position: {x: -0.003002658, y: 0, z: 0.000013403496}
+      rotation: {x: -1.0945273e-26, y: 0.0000000040667505, z: 5.523808e-25, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: INIDICETRE
+      parentName: INDICEDOS
+      position: {x: -0.0023054013, y: 0, z: -0.00004021049}
+      rotation: {x: 0.7042396, y: -0.000000027556446, z: 0.003556615, w: 0.7099535}
+      scale: {x: 1, y: 1, z: 1}
+    - name: INIDICECUA
+      parentName: INIDICETRE
+      position: {x: -0.001863086, y: -0.000110883586, z: 0.000013403496}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PULGAR1
+      parentName: PALMADE
+      position: {x: -0.00098867, y: -0.00003733947, z: 0.0037775433}
+      rotation: {x: 0.56047136, y: -0.000005450884, z: -0.49010733, w: 0.66758275}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PULGAR2
+      parentName: PULGAR1
+      position: {x: -0.0018494887, y: 0.0000000046803024, z: 0.0016172779}
+      rotation: {x: -0.000107193446, y: 0.000005653345, z: 0.000084222476, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PULGAR3
+      parentName: PULGAR2
+      position: {x: -0.0018996629, y: -0.0000000043622532, z: 0.0016611512}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HUESOIZQ
+      parentName: PECHO
+      position: {x: 0.0042157997, y: 0.0012653773, z: -0.00005985236}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HOMBREIZ
+      parentName: HUESOIZQ
+      position: {x: 0.0031279998, y: 0.0009443, z: -9.068975e-20}
+      rotation: {x: -0, y: -0.014635076, z: 0.025110008, w: 0.9995776}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CODOIZQ
+      parentName: HOMBREIZ
+      position: {x: 0.006315, y: -0.0009443, z: -1.6022119e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "MU\xD1ECAIZQ"
+      parentName: CODOIZQ
+      position: {x: 0.004957598, y: -0.00041308644, z: -0.0007911364}
+      rotation: {x: 0.033544876, y: 0.0352993, z: -0.0064799916, w: 0.9987927}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PLAMAIZQ
+      parentName: "MU\xD1ECAIZQ"
+      position: {x: 0.0059609, y: -0.000118, z: 0.0007316908}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "ME\xD1IQUEUNO"
+      parentName: PLAMAIZQ
+      position: {x: 0.0032902, y: -0.0000374, z: -0.0040472145}
+      rotation: {x: -0.2494779, y: -0.0016252626, z: -0.0028241605, w: 0.968375}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "ME\xD1IQUEDOS"
+      parentName: "ME\xD1IQUEUNO"
+      position: {x: 0.0022944, y: 0.000107, z: 0.000082959996}
+      rotation: {x: -0.00008076427, y: -0.0068632737, z: 0.011086499, w: 0.99991506}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "ME\xD1IQUETRE"
+      parentName: "ME\xD1IQUEDOS"
+      position: {x: 0.0017790999, y: -0.0000805, z: -0.00003687}
+      rotation: {x: 0.24947812, y: 0.0016410402, z: 0.0027971424, w: 0.968375}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "ME\xD1IQUECUATR"
+      parentName: "ME\xD1IQUETRE"
+      position: {x: 0.001438, y: -0.0000491, z: -0.00000719}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ANULARUNO
+      parentName: PLAMAIZQ
+      position: {x: 0.0037486, y: -0.0000374, z: -0.0021298449}
+      rotation: {x: -0.6780233, y: 0.005690188, z: -0.00810617, w: 0.7349737}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ANULARODS
+      parentName: ANULARUNO
+      position: {x: 0.0027153997, y: 2.220446e-18, z: 0.000046089997}
+      rotation: {x: 1.5440258e-17, y: -0.018246984, z: 4.0881984e-16, w: 0.9998335}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ANULARTRES
+      parentName: ANULARODS
+      position: {x: 0.0023598, y: 0, z: -0.000046089997}
+      rotation: {x: 0.6780548, y: 0.0129970675, z: -0.0005780108, w: 0.73489624}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ANULARCUAT
+      parentName: ANULARTRES
+      position: {x: 0.0018066999, y: -2.220446e-18, z: 0.00002765}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEDIOUNO
+      parentName: PLAMAIZQ
+      position: {x: 0.0039628, y: -0.0000374, z: 0.0001512257}
+      rotation: {x: -0.6960463, y: -4.832998e-18, z: 0.013687184, w: 0.7178664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEDIODOS
+      parentName: MEDIOUNO
+      position: {x: 0.0030079, y: 0, z: -2.428613e-19}
+      rotation: {x: -4.953001e-24, y: -0.000022386055, z: 1.2171746e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEDIOTRE
+      parentName: MEDIODOS
+      position: {x: 0.0024394998, y: 0, z: -0.000107228}
+      rotation: {x: 0.6960464, y: 0.00003874784, z: -0.013685671, w: 0.71786636}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEDIOCUA
+      parentName: MEDIOTRE
+      position: {x: 0.0019301, y: -2.220446e-18, z: 0.000013403489}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: INDICEUNO
+      parentName: PLAMAIZQ
+      position: {x: 0.0032925, y: -0.0000374, z: 0.002335995}
+      rotation: {x: -0.7042234, y: 0.007665687, z: -0.006380377, w: 0.7099085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint62
+      parentName: INDICEUNO
+      position: {x: 0.0030027, y: -4.440892e-18, z: 0.000013399999}
+      rotation: {x: -2.7238331e-17, y: -0.010950238, z: -1.7023339e-15, w: 0.99994004}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint63
+      parentName: joint62
+      position: {x: 0.0023054, y: 4.440892e-18, z: -0.00004021}
+      rotation: {x: 0.70454466, y: -0.012106564, z: 0.017392239, w: 0.7093432}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint64
+      parentName: joint63
+      position: {x: 0.0018630999, y: -0.00011079999, z: 0.000013409999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PULGAUNO
+      parentName: PLAMAIZQ
+      position: {x: 0.0009887, y: -0.0000374, z: 0.003777545}
+      rotation: {x: -0.56760436, y: -0.009883645, z: -0.47750273, w: 0.6706107}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint66
+      parentName: PULGAUNO
+      position: {x: 0.0016969999, y: 0, z: 0.00177658}
+      rotation: {x: -0.00000017881389, y: -0.05693637, z: 0.000000283122, w: 0.9983778}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint67
+      parentName: joint66
+      position: {x: 0.0020593998, y: 0, z: 0.0014584}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ABAJO
+      parentName: HCENTRAL
+      position: {x: -0, y: -0.001926213, z: -0.0030899667}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint9
+      parentName: ABAJO
+      position: {x: -0, y: -0.0019621502, z: 0.0001759136}
+      rotation: {x: -0.0018655148, y: 0.0000022615254, z: 0.000000004404544, w: 0.9999983}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint10
+      parentName: joint9
+      position: {x: -4.0847316e-19, y: -0.0031511853, z: 0.00003370252}
+      rotation: {x: 0.0043645524, y: -0.7070641, z: 0.0043645524, w: 0.70712256}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint11
+      parentName: joint10
+      position: {x: -1.760812e-19, y: -0.001364952, z: 0.00001685126}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CUERPO
+      parentName: modelo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
